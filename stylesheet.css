@@ -1,0 +1,692 @@
+
+*{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+
+.bold{
+  font-weight:700;
+}
+.fontsize14{
+  font-size: 14px;
+}
+
+.fontsize24{
+  font-size: 24px;
+}
+
+.fontsize10{
+  font-size: 10px;
+}
+
+.orangebold{
+  font-weight:900;
+  color:#f79314;
+  font-size:30px;
+  
+}
+header{
+  background-image:url(/Users/fujiitomohide/Downloads/ポテパン模写/top-hero.png);
+  background-size:cover;
+  width:100%;
+  height:600px;
+}
+
+.header-ullist{
+  margin-left:100px;
+}
+
+.headerli{
+  display: block;
+}
+
+.header-ullist span {
+  list-style:none;
+  float:left;
+  padding:20px 20px 0px 20px;
+  font-size:14px;
+  color:#000000;
+}
+
+.headerimg {
+  position:absolute;
+  top:190px;
+  left:190px;
+}
+
+.headerimg2 {
+  position:absolute;
+  top:180px;
+  left:530px;
+}
+
+.headerp{
+  position:absolute;
+  top:260px;
+  left:190px;
+  font-size:20px;
+}
+
+.headerp span{
+  color:#f79314
+}
+
+
+.free{
+  position:absolute;
+  top:360px;
+  left:190px;
+}
+.free p{
+  font-size:16px;
+}
+
+.headernote{
+  width:520px;
+  height:40px;
+  opacity:0.4;
+  font-size:10px;
+  position:absolute;
+  top:550px;
+  left:200px;
+}
+
+.main{
+  text-align:center;
+  color:#222222;
+}
+
+.btn{
+  width:340px;
+  height:60px;
+  background-color:#F79314;
+  color:#ffffff;
+  font-size:20px;
+  border-radius:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.muryoubtn{
+  width: 150px;
+  height: 40px;
+  padding: 0px;
+}
+
+.sankaku::after{
+  content:'';
+  width: 7px;
+  height: 7px;
+  bottom:4px;
+  right:-18px;
+  display:inline-block;
+  border-right: solid 3px #f79214;
+  border-top: solid 3px #f79214;
+  transform: rotate(45deg);
+}
+
+.border::after{
+  content:'';
+  display:block;
+  border-bottom:solid 6px #f79314;
+  width:50px;
+  margin:0 auto;
+  margin-top:20px;
+}
+
+.jissekireip.border::after{
+  width:25%;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+
+
+.overview{
+  width:100%;
+  height:330px;
+  background-color:#F79314;
+  color:#ffffff;
+  padding-top:55px;
+  padding-bottom:30px;
+  box-sizing:border-box;
+}
+
+
+.overviewnaka {
+  width:100%;
+  height:200px;
+  padding-left:50px;
+  padding-right:50px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing:border-box;
+
+}
+
+.overviewleft{
+  float:left;
+  display:inline-block;
+  vertical-align:middle;
+  margin-left:100px;
+  margin-top:30px;
+}
+
+.overviewleft h2{
+  font-size:50px;
+}
+
+.overviewleft p{
+  width:560px;
+  height:90px;
+  font-size:14px;
+  line-height:30px;
+  text-align:left;
+}
+
+.btnoverview{
+  width:320px;
+  background-color:#ffffff;
+  color:#f79314;
+  margin-top:70px;
+  margin-right:100px;
+}
+.btnoverviewp{
+  font-size:14px;
+}
+.Feature{
+  width:100%;
+  /* height:2334px; */
+  font-size:16px;
+  text-align:center;
+  padding-top:70px;
+}
+
+.Feature h2{
+  font-size:30px;
+  margin-bottom:40px;
+}
+
+.tokuchou{
+  height:130px;
+  text-align:center;
+}
+
+.tokuchou h1{
+  font-size:50px;
+}
+
+.listno{
+  width:100px;
+  height:80px;
+  color: #f79314;
+  font-weight:bold;
+  font-size: 40px;
+  margin:0 auto;
+  border-radius:100px;
+  background-color:#fcfaf5;
+  padding-top:10px;
+  text-align:center;
+  margin-top:50px;
+}
+
+.tenshokujisseki{
+  width:1045px;
+  height:700px;
+  background-color:#fcfaf5;
+  margin:0 auto;
+  margin-top:-30px;
+  padding-top:30px;
+
+}
+
+.jissekirei{
+  width:900px;
+  height:390px;
+  margin:0 auto;
+  margin-top:76px;
+  font-size:24px;
+  background-color:#fff;
+}
+
+.jissekireiimg{
+  padding-left:40px;
+  list-style:none;
+  display:flex;
+}
+
+.ukeirejisseki {
+  width:1045px;
+  height:450px;
+  padding-top:30px;
+  background-color:#fcfaf5;
+  margin:0 auto;
+  margin-top:-30px;
+}
+
+.ukeirejissekiimg{
+  background-color:#ffffff;
+  width:95%;
+  margin:0 auto;
+}
+.ukeirejissekiimg img{
+  padding:40px 60px 0px 60px;
+  background-color:#ffffff;
+}
+
+.teacher{
+  width:1045px;
+  height:580px;
+  background-color:#fcfaf5;
+  margin-top:100px;
+  margin:0 auto;
+  margin-top:-30px;
+  padding-top:30px;
+}
+
+.teachermini{
+  width:300px;
+  height:350px;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-left:10px;
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.teacherimg{
+}
+
+.teacherco{
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 25px
+}
+
+.teachermic{
+  margin-left: 20px;
+  text-align:left;
+}
+
+
+.teacherp{
+  width: 245px;
+  height: 130px;
+  margin:0 auto;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  background-color: #f6f6f6;
+  line-height: 1.5;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.minifontorange{
+  font-size: 14px;
+  color:#f79314;
+}
+
+.minifont{
+  font-size: 20px;
+}
+
+
+.freee{
+}
+
+.readyfor{
+}
+
+.course{
+  background-color:#F6F6F6	;
+  width:100%;
+  height:1050px;
+  margin-top: 40px;
+}
+.course h2{
+  font-size:46px;
+  padding-top: 40px;
+}
+.course p{
+  font-size:16px;
+}
+.coursep{
+  margin-top:-20px;
+}
+
+.oubo{
+  width:95px;
+  height: 25px;
+  background-color: #212121;
+  font-size:14px;
+  margin-top: 15px;
+  font-weight: normal;
+}
+
+.kcourse{
+  width:1040px;
+  height:170px;
+  background-color:#ffffff;
+  margin:0 auto;
+  position:relative;
+  margin-top: 50px;
+}
+.kcoursecolor{
+  color: #f75307;
+}
+.kcoursemini{
+  width:290px;
+  height:105px;
+  text-align:center;
+  background-color:#fff;
+  position:absolute;
+  top:30px;
+  left:-20px;
+  border:3px solid #f75307;
+  /* padding-top: 15px; */
+}
+
+.kcourseminiul{
+  display:flex;
+  margin-left: 320px;
+  text-align: left;
+  padding-top: -20px;
+  line-height:30px;
+}
+
+.kcourseminip{
+  width:120px;
+  height:30px;
+  background-color:#f75307;
+  font-size:14px;
+  margin:0 auto;
+}
+
+.bcourse{
+  width:1040px;
+  height:170px;
+  background-color:#ffffff;
+  margin:0 auto;
+  position:relative;
+  margin-top: 50px;
+}
+
+.bcoursecolor{
+  color: #49c766;
+}
+
+.bcoursemini{
+  border:3px solid #49c766;
+  justify-content:center;
+  align-items: center;
+  display: block;
+}
+
+.coursemic{
+  margin: 20px;
+}
+
+.bcourseminip{
+  background-color:#49c766;
+}
+
+.ocourse{
+  width:1040px;
+  height:170px;
+  background-color:#ffffff;
+  margin:0 auto;
+  position:relative;
+  margin-top: 50px;
+}
+.ocoursecolor{
+  color: #f79314;
+}
+
+.ocoursemini{
+  border:3px solid #f79314;
+  justify-content:center;
+  align-items: center;
+  display: flex;
+}
+
+.courseprice{
+  margin: 0   auto;
+  margin-top: 55px;
+}
+
+.omoi {
+  width:100%;
+  height:780px;
+  background-color:#FCFAF5;
+  position:relative;
+}
+
+.omoi h2{
+  padding-top:90px;
+  font-size:46px;
+}
+
+.omoip{
+  font-size:16px;
+  margin-top: -30px;
+}
+
+.message{
+  position: absolute;
+  top: 250px;
+  left: 225px;
+  font-size: 50px;
+  font-weight: 900;
+  color:#ff802c;
+  z-index: 10;
+}
+
+.omoimini{
+  position:absolute;
+  top:290px;
+  left:200px;
+  width:740px;
+  height:410px;
+  background-color:#ffffff;
+  z-index:0;
+}
+.omoiminip{
+  width:560px;
+  height:340px;
+  font-size:14px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 55px;
+}
+
+.omoiimg{
+  position:absolute;
+  top:380px;
+  left:840px;
+  z-index:1;
+}
+
+.kotira{
+  opacity: 0.2;
+  text-align: right;
+  padding-left: 850px;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.voice{
+  width:100%;
+}
+
+.voice h2{
+  padding-top:90px;
+  font-size:46px;
+}
+
+.voicep{
+  margin-top: -30px;
+}
+
+.voicelist{
+  display:flex;
+  padding-top:60px;
+  margin-bottom: 50px;
+}
+
+.studentimg{
+  width:320px;
+  height: 320px;
+}
+
+.studentp{
+  font-size: 15px;
+  text-align: left;
+}
+
+.voiceleft{
+  width:320px;
+  height:450px;
+  padding-left:200px;
+}
+
+.voicecenter{
+  width:320px;
+  height:450px;
+  padding-left:40px;
+  padding-right:40px;
+
+}
+
+.voiceright{
+  width:320px;
+  height:450px;
+  padding-right:200px;
+
+}
+.inteview{
+  margin:0 auto;
+}
+
+.service{
+  width:100%;
+  height:640px;
+  background-color:#F6F6F6;
+  margin-top:80px;
+}
+
+.service  h2{
+  padding-top:80px;
+  font-size:46px;
+  padding-bottom: -20px;
+}
+
+.potepanservice{
+  display:flex;
+}
+
+.potepanp{
+  margin-top: 20px;
+}
+
+.potepanbox1{
+  width:320px;
+  height:190px;
+  border:3px solid #fc6803;
+  background-color:#fff;
+}
+
+.potepanbox2{
+  width:320px;
+  height:190px;
+  border:3px solid #08af77;
+  background-color:#fff;
+}
+
+.potepanbox3{
+  width:320px;
+  height:190px;
+  border:3px solid #000;
+  background-color:#fff;
+}
+
+.potepanimg{
+  width:280px;
+  height:90px;
+  background-color:#fff;
+  margin:0 auto;
+  padding-top:50px;
+}
+
+
+.potepanfree{
+  width:320px;
+  height:310px;
+  padding:60px 0px 70px 200px;
+}
+
+.potepantenshoku{
+  width:320px;
+  height:310px;
+  padding:60px 40px 70px 40px;
+}
+
+.potepanengineers{
+  width:320px;
+  height:310px;
+  padding:60px 200px 70px 0px;
+}
+
+footer{
+  width:100%;
+  height:490px;
+  background-color: #F79314;
+  position: relative;
+}
+
+.footeradres{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 70px;
+}
+
+.adres{
+  color: #ffffff;
+  text-align: left;
+}
+.adresp{
+  margin:10px 10px 10px 0;
+  text-align: left;
+}
+
+.snsimg{
+  opacity: 100px;
+  width: 60px;
+  height: 60px;
+  margin-top: 35px;
+  margin-left: auto;
+  padding-right: 10px;
+}
+.adresul{
+  display: inline-block;
+  line-height: 50px;
+  color:#ffffff;
+  margin-top: -10px;
+  text-align: left;
+}
+
+.adresimg{
+  padding-top: 250px;
+}
+
+.chosakuken{
+  display: block;
+  text-align:left;
+  padding-left: 200px;
+  color: #ffffff;
+}
